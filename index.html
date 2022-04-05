@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="scroll.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="https://github.com/MunnMun" target = "_blank" class="logo">HK</a>
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="#sec">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="stars.png" id="stars" alt="">
+        <img src="moon.png" id="moon" alt="">
+        <img src="mountains_behind.png" id="mountains_behind" alt="">
+        <h2 id="text">Harsh Kaushik</h2>
+        <a href="#sec" id="btn">Explore</a>
+        <img src="mountains_front.png" id="mountains_front" alt="">
+    </section>
+    <div class="sec" id="sec">
+        <div class="container1">
+            <div class="img">
+                <img src="gentleman.jpg" alt="">
+            </div>
+            <div class="text1" data-aos="fade-left" data-aos-delay="300">
+                <h2>Hello !!!</h2>
+                <p>I am a 1st year student at Netaji Subhash University of Technology(NSUT) pursuing Information Technology with specialization in Network Security. <br>I am 19 years old. <br><br>I have planned to learn a bunch of stuff so that I can bring the creative ideas that i have thought of to life </p>
+            </div>
+        </div>
+        <div class="projects" id="projects" data-aos="fade-up" data-aos-duration="1000">>
+            <h1>MY PROJECTS</h1>
+            <div class="row">
+                <div class="project">
+                    <div class="project-banner"><h1>ROCK-PAPER-SCISSORS</h1><p>you vs computer, a game of stone paper scissors based on pure luck</p></div>
+                    <a href="https://munnmun.github.io/rock-paper-scissors/" target="_blank"><img src="1.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <div class="project-banner"><h1>CANVAS-CLOUD</h1><p>made using html canvas,makes clouds where ever you take the cursor</p></div>
+                    <a href="https://munnmun.github.io/canvas-cloud/" target="_blank"><img src="2.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <div class="project-banner"><h1>ADMIN-DASHBOARD</h1><p>a user dashboard template made using html and css</p></div>
+                    <a href="https://munnmun.github.io/Admin-dashboard/" target="_blank"><img src="3.png" alt=""></a>
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="project1">
+                <div class="project">
+                    <div class="project-banner"><h1>NOKIA-SNAKE</h1><p>everyone's childhood game that we used to play on those small nokia phones</p></div>
+                    <a href="https://munnmun.github.io/Nokia-Snake/" target="_blank"><img src="4.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <div class="project-banner"><h1>SIGNUP-FORM</h1><p>a sign-up template form made using html and css</p></div>
+                    <a href="https://munnmun.github.io/sign-up-form/" target="_blank"><img src="5.png" alt=""></a>
+                </div>
+            </div>
+            <hr class="hr">
+            </div>
+            <div  data-aos="zoom-out-up" id="contact" class="contact">
+                <div class="chat">
+                    <h1>Contact Me</h1>
+                    <h3>Get in touch</h3>
+                </div>
+                <div class="container2">
+                <div class="icons">
+                    <div class="icon"><box-icon name='phone' color="white"></box-icon> -7011589810</div>
+                    <div class="icon"><box-icon name='whatsapp' color="white" type='logo' ></box-icon>-7011589810</div>
+                    <div class="icon"><box-icon name='current-location' color="white"></box-icon>-Delhi,India</div>
+                </div>
+                <div class="input">
+                    <div class="phone">
+                        <input type="text" placeholder="name" name="" id="">
+                        <input type="text" placeholder="E-mail" name="" id="">
+                    </div>
+                    <div class="idea">
+                        <input placeholder="Project" type="text">
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="button">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer">
+                <div><h1>Harsh Kaushik</h1></div>
+                <div class="icon2">
+                    <div class="small"><a href="https://www.linkedin.com/in/harsh-kaushik-5a4614229" target="_blank"><box-icon type='logo' color="white" name='linkedin-square'></a></box-icon></div>
+                    <div class="small"><a href="https://github.com/MunnMun" target="_blank"><box-icon name='github' color="white" type='logo' ></box-icon></a></div>
+                    <div class="small"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><box-icon name='envelope' color="white" ></box-icon></a></div>
+            </div>
+            <div class="copy">&copy; Harsh Kaushik,All Rights Reserved.</div>
+            </div>
+            </footer>
+            </div>
+    </div>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
